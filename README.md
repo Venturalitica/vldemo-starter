@@ -20,7 +20,7 @@ Es material de demostración. La entidad (`Example Tutorial Corp`) es ficticia.
 git clone https://github.com/Venturalitica/vldemo-starter && cd vldemo-starter
 
 # 2. Crea el entorno y mide (genera metrics.json segun params.yaml:seed)
-python -m venv .venv && .venv/bin/pip install -r requirements.txt
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/dvc repro
 
 # 3. Compila el contrato del gate (genera el plan OSCAL)
